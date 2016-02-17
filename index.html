@@ -1,57 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<title>My test bootstrap</title>
-</head>
-<body>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>Hello World Bootstrap Tutorial</h1>
-		</div>
-		<div class="row">
-			<div class="col-xs-3">
-				<!-- <h3>Home</h3> -->
-				<button class="btn btn-default btn-block"> Home</button>
-				<p> first column bro</p>
-			</div>
-			<div class="col-xs-3">
-				<!-- <h3>Search</h3> -->
-				<button class="btn btn-default btn-block"> Search</button>
-				<p>second column bro</p>
-			</div>
-			<div class="col-xs-3">
-				<!-- <h3>About</h3> -->
-				<button class="btn btn-default btn-block"> About</button>
-				<p>third column bro</p>
-			</div>	
-			<div class="col-xs-3">
-				<!-- <h3>Login</h3> -->
-				<button class="btn btn-default btn-block" href="login.html" type="submit"> Login</button>
-				<a href="login.html">click here bro</a>
-			</div>				
-		</div>
-		<div class="col-xs-6">
-			<h3>Pengertian - pengertian</h3>
-			<dl class="dl-horizontal">
-				<dt>Abjad</dt>
-				<dd>Kumpulan huruf (aksara) berdasarkan urutan yang lazim dalam bahasa tertentu</dd>
-				<dt>Ibadah</dt>
-				<dd>Perbuatan untuk menyatakan bakti kepada Allah, yang didasari ketaatan mengerjakan perintah-Nya dan menjauhi larangan-Nya</dd>
-			</dl>	
-			<address>
-				<strong>Alamat :</strong> <br>
-				jl.junti andir hilir no.60 desa sangkanhurip kec. katapang kab. bandung 40900
-				<a href="mailto:#">jardik.oryza@gmail.com</a>
-			</address>		
-		</div>
-	</div>
+---
+layout: default
+---
 
-</body>
-</html>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
