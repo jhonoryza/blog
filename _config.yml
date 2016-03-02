@@ -8,7 +8,7 @@ url: http://jhonoryza.github.io
 
 # Localhost
 # url: http://127.0.0.1:4000
-
+mode: production
 # Harmony theme configuration. Please change accordingly.
 harmony:
   name: simpleblog
