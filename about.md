@@ -4,17 +4,15 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+Hi, I am Fajar Sidik Priatna, a developer (who works on the web, desktop and embedded system) based on Indonesia. 
+Graduated from Physics Department of Padjadjarab University (UNPAD). 
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+If you find some bugs or you want to share something, you can contact me..
 
 ### Contact me
 
 Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
+[jardik.oryza@gmail.com](jardik.oryza@gmail.com).
 
 
 [tf]: http://template-factory.nl
@@ -22,6 +20,6 @@ Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say
 [pw]: http://processwire.com
 [pwf]: http://processwire.com/talk
 [jekyll]: http://jekyllrb.com
-[github]: https://github.com/gayanvirajith
-[google]: https://plus.google.com/+GayanVirajith
-[twitter]: https://twitter.com/gayanvirajith
+[github]: https://github.com/jhonoryza
+[google]: https://plus.google.com/+FajarSidikPriatna
+[twitter]: https://twitter.com/jardik7
