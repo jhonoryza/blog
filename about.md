@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hi, I am Fajar Sidik Priatna, a developer (who works on the web, desktop and embedded system) based on Indonesia. 
-Graduated from Physics Department of Padjadjarab University (UNPAD). 
+Graduated from Physics Department of Padjadjaran University (UNPAD). 
 
 If you find some bugs or you want to share something, you can contact me..
 
