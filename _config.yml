@@ -4,7 +4,7 @@
 baseurl: /blog
 
 # Site live URL
-url: http://localhost:4000
+url: http://jhonoryza.github.io
 
 # Localhost
 # url: http://127.0.0.1:4000
