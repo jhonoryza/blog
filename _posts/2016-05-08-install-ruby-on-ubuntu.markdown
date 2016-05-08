@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "install ruby on ubuntu"
-date:   2016-05-08 18:36:16 +0000
+date:   2016-05-08 18:36:16 +0700
 categories: linux
 ---
-
 I found that this is the easy and simple way to install ruby on your machine
 If you’re using Ubuntu 14.04 (Trusty) or newer then you can add the package repository like this:
 
