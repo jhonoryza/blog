@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "how to fix grub rescue problem ?"
-date:   2016-02-17 08:06:16 +0000
+date:   2016-02-17 08:06:16 +0700
 categories: linux
 ---
 1. ls

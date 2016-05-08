@@ -2,6 +2,7 @@
 layout: post
 title: "install snappy ubuntu core"
 date: "2016-03-02 13:30:42 +0700"
+categories: linux
 ---
 Here are some steps to run snappy ubuntu core
 

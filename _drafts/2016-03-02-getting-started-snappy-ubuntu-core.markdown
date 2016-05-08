@@ -2,6 +2,7 @@
 layout: post
 title: "getting started snappy ubuntu core"
 date: "2016-03-02 13:49:06 +0700"
+categories: linux
 ---
 Let's see how it feels to get things done the Snappy way. You need to be logged in to your Ubuntu Core instance to try these commands, they won't work on a traditional apt-get or deb-based Ubuntu system!
 

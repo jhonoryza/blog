@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "how to speedup linux network connection"
-date:   2016-02-28 08:06:16 +0000
+date:   2016-02-28 08:06:16 +0700
 categories: linux
 ---
 Hello, i write this tutorial after i get a problem when i install ubuntu server and try to use internet connection but it's too

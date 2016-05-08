@@ -2,6 +2,7 @@
 layout: post
 title: "installation tips snappy ubuntu core"
 date: "2016-03-02 10:15:34 +0700"
+categories: linux
 ---
 Target installation overview
 
