@@ -1,0 +1,66 @@
+---
+layout: post
+title: "wifi settings for raspberry pi"
+date: "2016-05-08 21:16:34 +0700"
+categories: linux
+---
+You can set raspberry pi 3 to connect to wifi on boot automatically, since raspi 3 had built in wifi
+edit files "interface" from /etc/network/interface
+
+~~~~~~~~
+# /etc/network/interfaces
+
+auto wlan0
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+iface default inet dhcp
+~~~~~~~~
+
+if you want to use static ip :
+
+~~~~~~~~
+# /etc/network/interfaces
+
+auto wlan0
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+iface wlan0 inet static
+address 192.168.1.155
+netmask 255.255.255.0
+gateway 192.168.1.1
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+iface default inet dhcp
+~~~~~~~~
+
+then edit wpa_supplicant.conf files from /etc/wpa_supplicant/wpa_supplicant.conf
+
+~~~~~~~~
+# /etc/wpa_supplicant/wpa_supplicant.conf
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+ssid="NYO_WWWP"
+psk="topsecret"
+proto=RSN
+key_mgmt=WPA-PSK
+pairwise=CCMP
+auth_alg=OPEN
+}
+~~~~~~~~
+
+where :
+
+*	proto could be either RSN (WPA2) or WPA (WPA1).
+*	key_mgmt could be either WPA-PSK (most probably) or WPA-EAP (enterprise networks)
+*	pairwise could be either CCMP (WPA2) or TKIP (WPA1)
+*	auth_alg is most probably OPEN, other options are LEAP and SHARED
