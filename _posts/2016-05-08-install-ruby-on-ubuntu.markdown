@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Install ruby on Ubuntu"
-date:   2016-02-16 08:06:16 +0000
+date:   2016-05-08 18:36:16 +0000
 categories: news
 ---
 I found that this is the easy and simple way to install ruby on your machine
